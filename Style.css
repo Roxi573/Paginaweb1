@@ -1,0 +1,103 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+
+}
+section{
+    display: flex;
+    width: 1200px;
+    height: 600px;
+}
+section div{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: 500ms ease;
+    opacity: 0.8;
+}
+.Tomioka{
+    height: 100%;
+    width: 100%;
+    background-image: url(Img/Img-Tomioka.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inozuke{
+    height: 100%;
+    width: 100%;
+    background-image: url(Img/img-Inozuke.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Tanjiro{
+    height: 100%;
+    width: 100%;
+    background-image: url(Img/Img-Tanjiro\ Kamado.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Nezuko{
+    height: 100%;
+    width: 100%;
+    background-image: url(Img/Img-Nezuko.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.zenitsu{
+    height: 100%;
+    width: 100%;
+    background-image: url(Img/Img-zenitsu.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rengoku{
+    height: 100%;
+    width: 100%;
+    background-image: url(Img/Img-rengoku.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section div:hover{
+    width: 300%;
+    opacity: 1;
+    filter: contrast(150%);
+}
+button{
+    margin-top: 500px;
+    width: 5rem;
+    height: 2rem;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: 2px solid blue;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+button:hover{
+    box-shadow: 0px 0px 15px blue;
+
+
+}
